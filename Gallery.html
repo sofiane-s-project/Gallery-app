@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="css/gallery.css">
+    <script src = "js/gallery.js"></script>
+  </head>
+  <body>
+    <div>
+        <p> My App Gallery</p>
+      <div id="buttons">
+        <button onclick = "openFunction()">Explain Topic</button>
+        <button onclick = "closeFunction()">Hide explaination </button>
+        <p id="content">This is a photo gallery, In this site as you can see we have a lot of pictures that i took which some phones and today i wanted to show you my passion for the photos</p>
+      </div>
+    </div>
+    <p id="header"> Some suggestions 👇</p>
+  <script>
+    function upDate(element){
+  document.getElementById('image').innerHTML = element.alt;
+}
+function unDo(){
+  document.getElementById('image').innerHTML = "Hover over an image below to display here.";
+}
+function openFunction(){
+  el = document.getElementById("content");
+  el.style.display = "block";
+}
+function closeFunction(){
+  el = document.getElementById("content");
+  el.style.display = "none";
+}
+
+
+  </script>
+
+  <link rel="stylesheet" href="did a try.css">
+  
+
+  <a href="#" title="delete" class="delete" onclick="return confirm('Are you sure you want to delete this item')">Delete</a>
+  
+</body>
+</html>
