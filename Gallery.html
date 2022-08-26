@@ -12,8 +12,8 @@
         <button onclick = "openFunction()">Explain Topic</button>
         <button onclick = "closeFunction()">Hide explaination </button>
         <p id="content">This is a photo gallery, In this site as you can see we have a lot of pictures that i took which some phones and today i wanted to show you my passion for the photos</p>
-      </div>
-    </div>
+      
+      
     <p id="header"> Some suggestions 👇</p>
   <script>
     function upDate(element){
@@ -30,14 +30,41 @@ function closeFunction(){
   el = document.getElementById("content");
   el.style.display = "none";
 }
+function show(){
+  el = document.getElementById("content");
+  el.show.display= ""
+}
+function show(){
+  el = document.getElementById("content");
+  el.show.display= ""
+}
+var arr=[src="file:///C:/Users/drias/OneDrive/Bureau/k.jpeg"
+        ]
+$("Animal").click(function(){
+  $("image-container").empty()
+  $(".Moon").hide()
+  $(".Sunchine").hide()
+  Appand(Animal,arr)
+})
 
 
-  </script>
+</script>
 
-  <link rel="stylesheet" href="did a try.css">
-  
 
-  <a href="#" title="delete" class="delete" onclick="return confirm('Are you sure you want to delete this item')">Delete</a>
-  
+
+  <link rel="stylesheet" href="GalleryApp.css">
+  <center><input type="text" placeholder="Search..For..Categorys"></center> 
+<center><a href="add" title="add" class="add" onclick="return confirm('Are you sure you want to add this item')">add</a></center>
+<button onclick="myFunction()">Moon</button>
+     <center><button>Sunchine</button></center>
+      <center><button class="animal">Animal</button></center>
+   
+ <img src="file:///C:/Users/drias/OneDrive/Images/Projets%20vid%C3%A9o/IMG-20220709-WA0003.jpg" alt="" class="Moon">
+ <img src="" alt="">
+<img src="file:///C:/Users/drias/OneDrive/Bureau/k.jpeg" alt="" class="Animal">
+<img src="file:///C:/Users/drias/OneDrive/Bureau/received_344748800223506.jpeg" alt="" class="Animal">
+<img src="file:///C:/Users/drias/OneDrive/Bureau/sunchine/IMG-20220810-WA0025.jpg" alt="" class="Sunchine">
+<img src="file:///C:/Users/drias/OneDrive/Bureau/sunchine/received_325896772363753.jpeg" alt="" class="Sunchine">
+
 </body>
 </html>
